@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "create_mf:honeycomb_collector",
+    "create_mf:cultural_planks",
+    "create_mf:cultural_log",
+    "create_mf:cultural_wood",
+    "create_mf:copper_casing_stairs",
+    "create_mf:copper_casing_slab",
+    "create_mf:master_contraptions_table",
+    "create_mf:sundries_table",
+    "create_mf:workshops",
+    "create_mf:engineers_desk",
+    "create_mf:velcro",
+    "create_mf:showcase",
+    "create_mf:seller_of_mechanisms_table",
+    "create_mf:bayers_table",
+    "create_mf:incomplete_railway_decorative_casing",
+    "create_mf:brass_casing_stairs",
+    "create_mf:brass_casing_slab",
+    "create_mf:andesite_casing_stairs",
+    "create_mf:andesite_casing_slab",
+    "create_mf:railway_decorative_casing_fence_gate",
+    "create_mf:railway_decorative_casing_trapdoor",
+    "create_mf:railway_decorative_casing_fence",
+    "create_mf:railway_decorative_casing_wall",
+    "create_mf:railway_decorative_casing_stairs",
+    "create_mf:railway_decorative_casing_slab",
+    "create_mf:railway_decorative_casing"
+  ]
+}

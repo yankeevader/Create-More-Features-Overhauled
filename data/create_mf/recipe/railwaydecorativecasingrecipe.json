@@ -1,0 +1,68 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:stripped_logs"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "create_mf:railway_decorative_casing"
+    },
+    {
+      "chance": 18.0,
+      "id": "minecraft:oak_log"
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_railway_decorative_casing"
+        },
+        {
+          "item": "minecraft:iron_nugget"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_railway_decorative_casing"
+        }
+      ]
+    },
+    {
+  	  "type": "create:cutting",
+  	  "ingredients": [
+    	{
+      	  "item": "create_mf:incomplete_railway_decorative_casing"
+    	}
+  	  ],
+  	"processingTime": 250,
+  	  "results": [
+    	{
+      	  "id": "create_mf:incomplete_railway_decorative_casing"
+    	}
+  	  ]
+	},
+    {
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_mf:incomplete_railway_decorative_casing"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_mf:incomplete_railway_decorative_casing"
+    }
+  ]
+   }
+  ],
+  "transitionalItem": {
+    "item": "create_mf:incomplete_railway_decorative_casing"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_mf:gravitron_base"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 130.0,
+      "id": "create_mf:gravitron"
+    },
+    {
+      "chance": 10.0,
+      "id": "minecraft:iron_nugget"
+    },
+    {
+      "id": "minecraft:iron_pickaxe"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_gravitron"
+        },
+        {
+          "item": "create_mf:refined_radiance_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_gravitron"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_gravitron"
+        },
+        {
+          "item": "minecraft:netherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_gravitron"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_gravitron"
+        },
+        {
+          "item": "create_mf:shadow_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_gravitron"
+        }
+      ]
+    },
+	{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_mf:incomplete_gravitron"
+    },
+    {
+      "amount": 750,
+      "fluid": "minecraft:lava",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "id": "create_mf:incomplete_gravitron"
+    }
+  ]
+},
+	{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_mf:incomplete_gravitron"
+    },
+    {
+      "amount": 250,
+      "fluid": "create_mf:netheralavs",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "id": "create_mf:incomplete_gravitron"
+    }
+  ]
+},  
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_gravitron"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_gravitron"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_mf:incomplete_gravitron"
+  }
+}

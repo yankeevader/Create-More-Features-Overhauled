@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "create_mf:workshops"
+    },
+    "title": {
+      "translate": "advancements.time_to_shop.title"
+    },
+    "description": {
+      "translate": "advancements.time_to_shop.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "time_to_shop": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "create:copper"
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "create_mf:sulfur"
+    },
+    "title": {
+      "translate": "advancements.explosive_things.title"
+    },
+    "description": {
+      "translate": "advancements.explosive_things.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "explosive_things": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "create_mf:sulfurfrombasaltorerecipe",
+      "create_mf:sulfurfromorerecipe",
+      "create_mf:sulfur_lamp_recipe",
+      "create_mf:sulfur_lamp_up_recipe",
+      "create_mf:sulfurlamprecipe_2",
+      "create_mf:coalpinrecipe",
+      "create_mf:saltpeterfromdirtrecipe",
+      "create_mf:saltpeterfromnetherrackrecipe",
+      "create_mf:saltpeterfromlimestonerecipe",
+      "create_mf:saltpeterfromlimestonerecipecrushing"
+    ]
+  },
+  "parent": "create:copper"
+}

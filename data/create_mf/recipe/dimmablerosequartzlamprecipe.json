@@ -1,0 +1,86 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:rose_quartz_lamp"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 120.0,
+      "id": "create_mf:dimmable_rose_quartz_lamp"
+    },
+    {
+      "chance": 8.0,
+      "id": "create:rose_quartz"
+    },
+    {
+      "id": "minecraft:clock"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        },
+        {
+          "item": "create:zinc_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        }
+      ]
+    },
+    {
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+    }
+  ],
+  "results": [
+    {
+      "id": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+    }
+  ]
+}
+  ],
+  "transitionalItem": {
+    "item": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+  }
+}
