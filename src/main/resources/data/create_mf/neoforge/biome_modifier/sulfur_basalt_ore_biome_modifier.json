@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "basalt_deltas",
+    "nether_wastes"
+  ],
+  "features": "create_mf:sulfur_basalt_ore",
+  "step": "underground_ores"
+}

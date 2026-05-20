@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "create_mf:block/copper_casing",
+    "bottom": "create_mf:block/copper_casing",
+    "top": "create_mf:block/copper_casing",
+    "side": "create_mf:block/copper_casing"
+  },
+  "render_type": "solid"
+}

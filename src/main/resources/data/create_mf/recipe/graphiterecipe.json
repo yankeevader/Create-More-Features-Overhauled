@@ -1,0 +1,72 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_mf:pieces_of_graphite"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 110.0,
+      "id": "create_mf:graphite"
+    },
+    {
+      "chance": 6.0,
+      "id": "minecraft:flint"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:iron_nugget"
+    },
+    {
+      "id": "minecraft:iron_ingot"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create_mf:pieces_of_graphite"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:pieces_of_graphite"
+        }
+      ],
+      "processing_time": 80
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:pieces_of_graphite"
+        },
+        {
+          "item": "create_mf:pieces_of_graphite"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:pieces_of_graphite"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_mf:pieces_of_graphite"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:pieces_of_graphite"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": "create_mf:pieces_of_graphite"
+  }
+}

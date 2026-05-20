@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "create_mf:block/cultural_leaves",
+    "particle": "create_mf:block/cultural_leaves"
+  }
+}

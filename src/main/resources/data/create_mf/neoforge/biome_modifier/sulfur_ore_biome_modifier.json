@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "dripstone_caves",
+    "plains",
+    "snowy_beach",
+    "snowy_plains",
+    "desert",
+    "badlands",
+    "birch_forest",
+    "dark_forest",
+    "flower_forest",
+    "forest"
+  ],
+  "features": "create_mf:sulfur_ore",
+  "step": "underground_ores"
+}

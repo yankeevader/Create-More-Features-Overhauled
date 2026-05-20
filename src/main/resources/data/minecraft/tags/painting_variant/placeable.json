@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create_mf:disappointment",
+    "create_mf:emotions",
+    "create_mf:mr_fire",
+    "create_mf:mechanizers_yard",
+    "create_mf:lack_of_speed"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gravitron_recipe_dobble",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_mf:gravitron"
+    },
+    {
+      "item": "create_mf:shadow_ingot"
+    }
+  ],
+  "result": {
+    "id": "create_mf:gravitron",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create_mf:railway_decorative_casing"
+  },
+  "result": {
+    "id": "create_mf:railway_decorative_casing_stairs",
+    "count": 1
+  }
+}

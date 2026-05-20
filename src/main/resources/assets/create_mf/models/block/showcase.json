@@ -1,0 +1,13 @@
+{
+  "parent": "create_mf:custom/showcase",
+  "textures": {
+    "all": "create_mf:block/sweet_roll",
+    "particle": "create_mf:block/sweet_roll",
+    "4": "create_mf:block/framed_glass",
+    "5": "create_mf:block/depot_side",
+    "6": "create_mf:block/sweet_roll",
+    "8": "create_mf:block/andesite_casing",
+    "9": "create_mf:block/bar_of_chocolate"
+  },
+  "render_type": "cutout"
+}

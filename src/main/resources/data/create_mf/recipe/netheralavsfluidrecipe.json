@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:lava",
+      "type": "neoforge:single"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "id": "create_mf:netheralavs"
+    }
+  ]
+}

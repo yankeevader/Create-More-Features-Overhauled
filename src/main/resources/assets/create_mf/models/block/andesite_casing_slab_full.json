@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "create_mf:block/andesite_casing",
+    "bottom": "create_mf:block/andesite_casing",
+    "top": "create_mf:block/andesite_casing",
+    "side": "create_mf:block/andesite_casing"
+  },
+  "render_type": "solid"
+}

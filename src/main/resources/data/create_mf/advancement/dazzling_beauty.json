@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "create_mf:refined_radiance",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.dazzling_beauty.title"
+    },
+    "description": {
+      "translate": "advancements.dazzling_beauty.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dazzling_beauty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_mf:refined_radiance",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "create:display_board_0"
+}

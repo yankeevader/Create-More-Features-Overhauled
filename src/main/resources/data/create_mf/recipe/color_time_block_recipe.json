@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "color_time_block_recipe",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "create_mf:saltpeter"
+    }
+  ],
+  "result": {
+    "id": "create_mf:color_time_block",
+    "count": 8
+  }
+}

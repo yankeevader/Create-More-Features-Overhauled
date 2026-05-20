@@ -1,0 +1,10 @@
+{
+  "parent": "create_mf:custom/contraptions_table",
+  "textures": {
+    "all": "create_mf:block/engineer_table_top",
+    "particle": "create_mf:block/engineer_table_top",
+    "0": "create_mf:block/engineer_table_side",
+    "1": "create_mf:block/engineer_table_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "flying_block_recipe",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "create_mf:saltpeter"
+    },
+    {
+      "item": "create_mf:saltpeter"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "result": {
+    "id": "create_mf:flying_block",
+    "count": 8
+  }
+}

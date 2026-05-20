@@ -1,0 +1,52 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="create_more_features"
+version="0.8.0"
+displayName="Create: more features"
+displayURL="https://minecraft-inside.ru/user/daniil_white/"
+logoFile="logo.png"
+credits="Create: More Features is addon for Create mod"
+authors="Daniil_White, Tamlighter"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.create_more_features]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_more_features]]
+    modId="create"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_more_features]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.create_more_features]]
+    modId="createnew"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_more_features]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

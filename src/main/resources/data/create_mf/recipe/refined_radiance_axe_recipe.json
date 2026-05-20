@@ -1,0 +1,138 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "create_mf:refined_radiance_axe"
+    },
+    {
+      "chance": 10.0,
+      "id": "minecraft:netherite_axe"
+    },
+    {
+      "id": "minecraft:iron_axe"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        },
+        {
+          "item": "minecraft:gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        },
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        },
+        {
+          "item": "create_mf:refined_radiance"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        },
+        {
+          "amount": 200,
+          "fluid": "minecraft:lava",
+          "type": "neoforge:single"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        },
+        {
+          "amount": 750,
+          "fluid": "minecraft:water",
+          "type": "neoforge:single"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        },
+        {
+          "item": "create_mf:refined_radiance"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_axe"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": "create_mf:incomplete_refined_radiance_axe"
+  }
+}

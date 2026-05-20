@@ -1,0 +1,10 @@
+{
+  "parent": "create_mf:custom/pipe_table",
+  "textures": {
+    "all": "create_mf:block/pipes",
+    "particle": "create_mf:block/pipes",
+    "0": "create_mf:block/pipes",
+    "1": "create_mf:block/copper_plating"
+  },
+  "render_type": "solid"
+}

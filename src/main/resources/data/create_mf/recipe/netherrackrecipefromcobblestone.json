@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "amount": 50,
+      "fluid": "create_mf:netheralavs",
+      "type": "neoforge:single"
+    },
+    {
+      "amount": 50,
+      "fluid": "minecraft:lava",
+      "type": "neoforge:single"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:netherrack"
+    }
+  ]
+}

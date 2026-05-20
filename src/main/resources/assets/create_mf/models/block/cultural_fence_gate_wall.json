@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "create_mf:block/cultural_planks",
+    "texture": "create_mf:block/cultural_planks"
+  },
+  "render_type": "solid"
+}

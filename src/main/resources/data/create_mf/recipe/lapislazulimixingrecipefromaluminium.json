@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "create_mf:sulfur"
+    },
+    {
+      "tag": "c:nuggets/aluminum"
+    },
+    {
+      "tag": "c:nuggets/aluminum"
+    },
+    {
+      "tag": "c:nuggets/aluminum"
+    },
+    {
+      "amount": 25,
+      "fluid": "minecraft:lava",
+      "type": "neoforge:single"
+    }
+  ],
+  "results": [
+    {
+      "count": 5,
+      "id": "minecraft:lapis_lazuli"
+    },
+    {
+      "chance": 0.35,
+      "id": "minecraft:lapis_lazuli"
+    }
+  ]
+}

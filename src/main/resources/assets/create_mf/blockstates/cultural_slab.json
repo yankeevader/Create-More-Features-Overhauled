@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create_mf:block/cultural_slab"
+    },
+    "type=top": {
+      "model": "create_mf:block/cultural_slab_top"
+    },
+    "type=double": {
+      "model": "create_mf:block/cultural_slab_full"
+    }
+  }
+}

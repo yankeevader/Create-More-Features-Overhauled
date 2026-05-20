@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "refined_radiance_casing_stairs_recipe",
+  "ingredient": {
+    "item": "create_mf:refined_radiance_casing"
+  },
+  "result": {
+    "id": "create_mf:refined_radiance_casing_stairs",
+    "count": 1
+  }
+}

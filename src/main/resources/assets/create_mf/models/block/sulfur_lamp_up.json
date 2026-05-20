@@ -1,0 +1,9 @@
+{
+  "parent": "create_mf:custom/sulfur_lamp_up",
+  "textures": {
+    "all": "create_mf:block/sulfur_lamp_1",
+    "particle": "create_mf:block/sulfur_lamp_1",
+    "1": "create_mf:block/sulfur_lamp_1"
+  },
+  "render_type": "solid"
+}

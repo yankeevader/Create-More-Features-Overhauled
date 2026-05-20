@@ -1,0 +1,59 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="create_mf"
+version="0.9.69"
+displayName="Create: more features"
+displayURL="https://minecraft-inside.ru/user/daniil_white/"
+logoFile="logo.png"
+credits="Create: More Features is addon for Create mod"
+authors="Daniil_White, Tamlighter"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.create_mf]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_mf]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.create_mf]]
+    modId="create"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_mf]]
+    modId="create"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.create_mf]]
+    modId="createnew"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.create_mf]]
+    modId="create"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

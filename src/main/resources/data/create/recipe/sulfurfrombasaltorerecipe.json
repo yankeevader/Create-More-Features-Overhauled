@@ -1,0 +1,22 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create_mf:sulfur_basalt_ore"
+    }
+  ],
+  "processing_time": 140,
+  "results": [
+    {
+      "id": "create_mf:sulfur"
+    },
+    {
+      "chance": 0.85,
+      "id": "create_mf:sulfur"
+    },
+    {
+      "chance": 0.34,
+      "id": "create_mf:sulfur"
+    }
+  ]
+}

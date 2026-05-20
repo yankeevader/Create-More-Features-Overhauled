@@ -1,0 +1,13 @@
+{
+  "parent": "create_mf:custom/engineers_desk",
+  "textures": {
+    "all": "create_mf:block/schematic_table_top",
+    "particle": "create_mf:block/schematic_table_top",
+    "0": "create_mf:block/engineer_table_side",
+    "1": "create_mf:block/engineer_table_top",
+    "2": "create_mf:block/brass_casing",
+    "4": "create_mf:block/brass_table",
+    "missing": "create_mf:block/brass_casing"
+  },
+  "render_type": "cutout"
+}

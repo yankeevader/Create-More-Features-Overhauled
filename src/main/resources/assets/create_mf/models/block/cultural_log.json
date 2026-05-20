@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/cultural_log_top",
+    "up": "create_mf:block/cultural_log_top",
+    "north": "create_mf:block/cultural_log_side",
+    "east": "create_mf:block/cultural_log_side",
+    "south": "create_mf:block/cultural_log_side",
+    "west": "create_mf:block/cultural_log_side",
+    "particle": "create_mf:block/cultural_log_top"
+  },
+  "render_type": "solid"
+}

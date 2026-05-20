@@ -1,0 +1,11 @@
+{
+  "parent": "create_mf:custom/buyers_table",
+  "textures": {
+    "all": "create_mf:block/depot_side",
+    "particle": "create_mf:block/depot_side",
+    "4": "create_mf:block/depot_top",
+    "6": "create_mf:block/depot_side",
+    "7": "create_mf:block/andesite_casing"
+  },
+  "render_type": "solid"
+}

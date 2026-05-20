@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "seller_of_mechanisms_table_recipe",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "create:brass_sheet"
+    },
+    "c": {
+      "item": "create:clipboard"
+    },
+    "d": {
+      "item": "minecraft:emerald"
+    },
+    "e": {
+      "item": "create:schematic_table"
+    }
+  },
+  "result": {
+    "id": "create_mf:seller_of_mechanisms_table",
+    "count": 1
+  }
+}

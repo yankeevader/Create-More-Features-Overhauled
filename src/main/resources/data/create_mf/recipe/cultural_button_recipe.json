@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "create_mf:cultural_planks"
+    }
+  ],
+  "result": {
+    "id": "create_mf:cultural_button",
+    "count": 1
+  }
+}

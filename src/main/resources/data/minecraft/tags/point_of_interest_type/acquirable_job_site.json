@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "create_mf:buyer_of_mechanisms",
+    "create_mf:sellerofmechanisms",
+    "create_mf:confectioner",
+    "create_mf:engineer",
+    "create_mf:pipefitter",
+    "create_mf:exchangerofmechanisms",
+    "create_mf:contraptionstrader",
+    "create_mf:lineman",
+    "create_mf:sundriesseller",
+    "create_mf:gizmomaster",
+    "create_mf:postman"
+  ]
+}

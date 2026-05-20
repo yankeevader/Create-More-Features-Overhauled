@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "create_mf:blocks/incomplete_dimmable_rose_quartz_lamp",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_mf:incomplete_dimmable_rose_quartz_lamp"
+        }
+      ]
+    }
+  ]
+}

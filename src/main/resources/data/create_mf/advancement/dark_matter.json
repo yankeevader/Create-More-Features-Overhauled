@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "create_mf:shadow_ingot"
+    },
+    "title": {
+      "translate": "advancements.dark_matter.title"
+    },
+    "description": {
+      "translate": "advancements.dark_matter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dark_matter_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_mf:shadow_ingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "create_mf:gravitron_base_recipe",
+      "create_mf:gravitronrecipe"
+    ]
+  },
+  "parent": "create_mf:dazzling_beauty"
+}

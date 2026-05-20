@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pipe_table_recipe",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "create:smart_fluid_pipe"
+    },
+    "b": {
+      "item": "create:fluid_pipe"
+    },
+    "c": {
+      "item": "create:hose_pulley"
+    },
+    "d": {
+      "item": "create_mf:copper_plating"
+    },
+    "e": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "id": "create_mf:pipe_table",
+    "count": 1
+  }
+}

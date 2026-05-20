@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "refined_radiance_block_recipe",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "create_mf:refined_radiance"
+    }
+  },
+  "result": {
+    "id": "create_mf:refined_radiance_block",
+    "count": 1
+  }
+}

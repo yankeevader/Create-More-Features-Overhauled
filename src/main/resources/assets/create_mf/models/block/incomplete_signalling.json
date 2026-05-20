@@ -1,0 +1,10 @@
+{
+  "parent": "create_mf:custom/signalling",
+  "textures": {
+    "all": "create_mf:block/incomplete_rose_quartz_lamp_signalling",
+    "particle": "create_mf:block/incomplete_rose_quartz_lamp_signalling",
+    "1": "create_mf:block/brass_casing",
+    "2": "create_mf:block/rose_quartz_lamp_signalling"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "create_mf:block/color_time_block"
+    },
+    "blockstate=1": {
+      "model": "create_mf:block/color_time_block_state_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "create_mf:block/color_time_block_state_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "create_mf:block/color_time_block_state_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "create_mf:block/color_time_block_state_blockstate_3"
+    }
+  }
+}

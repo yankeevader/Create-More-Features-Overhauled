@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "create_mf:block/contraptions_table"
+    },
+    "facing=east": {
+      "model": "create_mf:block/contraptions_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "create_mf:block/contraptions_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "create_mf:block/contraptions_table",
+      "y": 270
+    }
+  }
+}

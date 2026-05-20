@@ -1,0 +1,9 @@
+{
+  "parent": "create_mf:custom/lineman_table",
+  "textures": {
+    "all": "create_mf:block/lineman_table_top",
+    "particle": "create_mf:block/lineman_table_top",
+    "1": "create_mf:block/lineman_table_top"
+  },
+  "render_type": "solid"
+}

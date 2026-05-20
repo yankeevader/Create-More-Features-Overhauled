@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:end_crystal"
+    },
+    "c": {
+      "item": "create_mf:shadow_ingot"
+    },
+    "d": {
+      "item": "create_mf:dark_storage"
+    }
+  },
+  "result": {
+    "id": "create_mf:void_storage",
+    "count": 1
+  }
+}

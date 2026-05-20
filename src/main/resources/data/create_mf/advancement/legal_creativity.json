@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "create_mf:incomplete_gravitron"
+    },
+    "title": {
+      "translate": "advancements.legal_creativity.title"
+    },
+    "description": {
+      "translate": "advancements.legal_creativity.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "legal_creativity_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_mf:gravitron",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "create_mf:dark_matter"
+}

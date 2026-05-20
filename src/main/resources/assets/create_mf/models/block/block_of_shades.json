@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "create_mf:block/block_of_shades",
+    "particle": "create_mf:block/block_of_shades"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/refined_radiance_block",
+    "up": "create_mf:block/refined_radiance_block",
+    "north": "create_mf:block/refined_radiance_block",
+    "east": "create_mf:block/refined_radiance_block",
+    "south": "create_mf:block/refined_radiance_block",
+    "west": "create_mf:block/refined_radiance_block",
+    "particle": "create_mf:block/refined_radiance_block"
+  },
+  "render_type": "solid"
+}

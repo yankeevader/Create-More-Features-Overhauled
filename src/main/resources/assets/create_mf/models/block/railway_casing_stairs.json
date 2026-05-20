@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "create_mf:block/railway_casing",
+    "bottom": "create_mf:block/railway_casing",
+    "top": "create_mf:block/railway_casing",
+    "side": "create_mf:block/railway_casing"
+  },
+  "render_type": "solid"
+}

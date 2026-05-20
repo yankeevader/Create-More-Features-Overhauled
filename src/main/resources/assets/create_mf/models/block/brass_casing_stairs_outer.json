@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "create_mf:block/brass_casing",
+    "bottom": "create_mf:block/brass_casing",
+    "top": "create_mf:block/brass_casing",
+    "side": "create_mf:block/brass_casing"
+  },
+  "render_type": "solid"
+}

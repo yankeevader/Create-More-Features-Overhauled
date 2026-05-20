@@ -1,0 +1,22 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "amount": 850,
+      "fluid": "minecraft:lava",
+      "type": "neoforge:single"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:magma_block"
+    }
+  ]
+}

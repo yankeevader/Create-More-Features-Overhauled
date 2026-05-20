@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "create_mf:cultural_log"
+    }
+  ],
+  "result": {
+    "id": "create_mf:cultural_planks",
+    "count": 4
+  }
+}

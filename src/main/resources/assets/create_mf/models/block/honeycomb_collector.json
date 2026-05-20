@@ -1,0 +1,10 @@
+{
+  "parent": "create_mf:custom/honeycomb_collector",
+  "textures": {
+    "all": "create_mf:block/honeycomb_collector_side",
+    "particle": "create_mf:block/honeycomb_collector_side",
+    "0": "create_mf:block/honeycomb_collector_side",
+    "1": "create_mf:block/honeycomb_collector_top"
+  },
+  "render_type": "solid"
+}

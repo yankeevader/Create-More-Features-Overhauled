@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "create_mf:incomplete_dimmable_rose_quartz_lamp",
+    "create_mf:copper_plating",
+    "create_mf:railway_casing_stairs",
+    "create_mf:railway_casing_slab",
+    "create_mf:refined_radiance_casing_stairs",
+    "create_mf:refined_radiance_casing_slab",
+    "create_mf:refined_radiance_casing"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/copper_plating",
+    "up": "create_mf:block/copper_plating",
+    "north": "create_mf:block/copper_plating",
+    "east": "create_mf:block/copper_plating",
+    "south": "create_mf:block/copper_plating",
+    "west": "create_mf:block/copper_plating",
+    "particle": "create_mf:block/copper_plating"
+  },
+  "render_type": "solid"
+}

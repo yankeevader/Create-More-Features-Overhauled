@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "create_mf:block/refined_radiance_casing_slab"
+    },
+    "type=top": {
+      "model": "create_mf:block/refined_radiance_casing_slab_top"
+    },
+    "type=double": {
+      "model": "create_mf:block/refined_radiance_casing_slab_full"
+    }
+  }
+}

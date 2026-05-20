@@ -1,0 +1,10 @@
+{
+  "signalling": {
+    "sounds": [
+      {
+        "name": "create_mf:siren2",
+        "stream": false
+      }
+    ]
+  }
+}

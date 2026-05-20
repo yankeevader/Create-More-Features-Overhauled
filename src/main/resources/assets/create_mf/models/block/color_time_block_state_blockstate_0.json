@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/color_time_block_2",
+    "up": "create_mf:block/color_time_block_2",
+    "north": "create_mf:block/color_time_block_2",
+    "east": "create_mf:block/color_time_block_2",
+    "south": "create_mf:block/color_time_block_2",
+    "west": "create_mf:block/color_time_block_2",
+    "particle": "create_mf:block/color_time_block"
+  },
+  "render_type": "solid"
+}

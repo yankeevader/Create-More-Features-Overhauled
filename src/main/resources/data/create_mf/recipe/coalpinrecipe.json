@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "c:coal"
+    }
+  ],
+  "processing_time": 80,
+  "results": [
+    {
+      "chance": 0.9,
+      "id": "create_mf:coal_pin"
+    },
+    {
+      "chance": 0.3,
+      "id": "create_mf:coal_pin"
+    }
+  ]
+}

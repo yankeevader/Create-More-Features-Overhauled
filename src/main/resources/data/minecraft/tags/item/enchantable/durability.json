@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "create_mf:refined_radiance_storage",
+    "create_mf:incomplete_refined_radiance_sword",
+    "create_mf:incomplete_refined_radiance_shovel",
+    "create_mf:incomplete_refined_radiance_axe",
+    "create_mf:gravitron"
+  ]
+}

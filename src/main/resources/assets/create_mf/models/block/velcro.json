@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/velcro_side",
+    "up": "create_mf:block/velcro",
+    "north": "create_mf:block/velcro_side",
+    "east": "create_mf:block/velcro_side",
+    "south": "create_mf:block/velcro_side",
+    "west": "create_mf:block/velcro_side",
+    "particle": "create_mf:block/velcro_side"
+  },
+  "render_type": "solid"
+}

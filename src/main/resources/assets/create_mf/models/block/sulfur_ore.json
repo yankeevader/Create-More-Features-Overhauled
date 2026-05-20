@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/sulfur_ore",
+    "up": "create_mf:block/sulfur_ore",
+    "north": "create_mf:block/sulfur_ore",
+    "east": "create_mf:block/sulfur_ore",
+    "south": "create_mf:block/sulfur_ore",
+    "west": "create_mf:block/sulfur_ore",
+    "particle": "create_mf:block/sulfur_ore"
+  },
+  "render_type": "solid"
+}

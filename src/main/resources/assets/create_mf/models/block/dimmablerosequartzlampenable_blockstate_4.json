@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/dimmable_rose_quartz_lamp_dim",
+    "up": "create_mf:block/dimmable_rose_quartz_lamp_dim",
+    "north": "create_mf:block/dimmable_rose_quartz_lamp_dim",
+    "east": "create_mf:block/dimmable_rose_quartz_lamp_dim",
+    "south": "create_mf:block/dimmable_rose_quartz_lamp_dim",
+    "west": "create_mf:block/dimmable_rose_quartz_lamp_dim",
+    "particle": "create_mf:block/dimmable_rose_quartz_lamp"
+  },
+  "render_type": "solid"
+}

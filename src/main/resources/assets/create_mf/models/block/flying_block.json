@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_mf:block/floatato",
+    "up": "create_mf:block/floatato",
+    "north": "create_mf:block/floatato",
+    "east": "create_mf:block/floatato",
+    "south": "create_mf:block/floatato",
+    "west": "create_mf:block/floatato",
+    "particle": "create_mf:block/floatato"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sulfur_lamp_up_recipe_2",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_mf:sulfur_lamp_up"
+    }
+  ],
+  "result": {
+    "id": "create_mf:sulfur_lamp",
+    "count": 1
+  }
+}

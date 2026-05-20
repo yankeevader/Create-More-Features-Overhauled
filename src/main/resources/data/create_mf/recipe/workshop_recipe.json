@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "workshop_recipe",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "f f"
+  ],
+  "key": {
+    "a": {
+      "item": "create:electron_tube"
+    },
+    "b": {
+      "item": "create:brown_toolbox"
+    },
+    "c": {
+      "item": "create:placard"
+    },
+    "d": {
+      "item": "create:andesite_casing"
+    },
+    "e": {
+      "item": "create:turntable"
+    },
+    "f": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "create_mf:workshops",
+    "count": 1
+  }
+}

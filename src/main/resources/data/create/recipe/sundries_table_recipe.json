@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sundries_table_recipe",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ccc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "create:crafter_slot_cover"
+    },
+    "b": {
+      "item": "create:crafting_blueprint"
+    },
+    "c": {
+      "item": "create_mf:railway_decorative_casing_slab"
+    },
+    "d": {
+      "item": "create:cogwheel"
+    },
+    "e": {
+      "item": "create:schematic_table"
+    }
+  },
+  "result": {
+    "id": "create_mf:sundries_table",
+    "count": 1
+  }
+}

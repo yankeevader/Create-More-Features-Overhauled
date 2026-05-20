@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# IntelliJ / Eclipse / VS Code
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Minecraft run dirs
+run/
+runs/
+
+# Decompiled / generated temp files
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar

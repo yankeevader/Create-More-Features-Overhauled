@@ -1,0 +1,10 @@
+{
+  "parent": "create_mf:custom/workshop",
+  "textures": {
+    "all": "create_mf:block/brown",
+    "particle": "create_mf:block/brown",
+    "0": "create_mf:block/andesite_casing",
+    "1": "create_mf:block/brown"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gunpowder_recipe",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_mf:saltpeter"
+    },
+    {
+      "item": "create_mf:saltpeter"
+    },
+    {
+      "item": "create_mf:sulfur"
+    },
+    {
+      "item": "create_mf:coal_pin"
+    }
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 2
+  }
+}

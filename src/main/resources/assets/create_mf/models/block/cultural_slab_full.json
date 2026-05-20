@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "create_mf:block/cultural_planks",
+    "bottom": "create_mf:block/cultural_planks",
+    "top": "create_mf:block/cultural_planks",
+    "side": "create_mf:block/cultural_planks"
+  },
+  "render_type": "solid"
+}

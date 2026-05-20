@@ -1,0 +1,138 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "create_mf:refined_radiance_sword"
+    },
+    {
+      "chance": 10.0,
+      "id": "minecraft:netherite_sword"
+    },
+    {
+      "id": "minecraft:iron_sword"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        },
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        },
+        {
+          "item": "create_mf:refined_radiance"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 450,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 900,
+          "fluid": "minecraft:water"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        },
+        {
+          "item": "create_mf:refined_radiance"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_refined_radiance_sword"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_mf:incomplete_refined_radiance_sword"
+  }
+}
