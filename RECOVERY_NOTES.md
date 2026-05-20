@@ -1,25 +1,26 @@
 # Recovery Notes
 
-This source tree was recovered from the patched distribution jar using CFR.
+This repository originated from reconstruction and cleanup work performed to preserve Create: More Features compatibility for NeoForge 1.21.1 environments.
 
-## What is preserved
+The project has since been cleaned, modernized, and converted into a proper Gradle-based source repository suitable for:
 
-- Decompiled Java sources under `src/main/java`.
-- Runtime resources under `src/main/resources`.
-- NeoForge metadata from the jar, including `META-INF/neoforge.mods.toml`.
-- Legacy/stale metadata files that were present in the jar, including `META-INF/mods.toml`, intentionally left untouched for traceability.
-- Original asset/data paths and filenames.
+- Long-term maintenance
+- Compatibility patching
+- Server-side debugging
+- Modpack integration
+- Future source control and issue tracking
 
-## What this is not
+## Cleanup Goals
 
-This is not the original MCreator workspace and not the author's original development repository. Decompiled source can contain:
+- Remove obsolete metadata and generated files
+- Normalize Gradle project structure
+- Restore clean build functionality
+- Improve compatibility with Create 6 environments
+- Improve compatibility with Easy Villagers interactions
 
-- redundant casts,
-- rough generic types,
-- synthetic inner-class reconstruction,
-- ugly generated procedure code,
-- missing comments/history.
+## Current Status
 
-## Cleanup policy
-
-Until the repo successfully compiles, avoid broad cosmetic rewrites. Keep code close to decompiled output so changes remain easy to diff against the shipped jar.
+- Clean NeoForge 1.21.1 source tree
+- Buildable Gradle project
+- Public GitHub branch structure
+- Unofficial compatibility maintenance branch
