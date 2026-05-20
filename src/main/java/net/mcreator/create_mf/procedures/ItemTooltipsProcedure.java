@@ -115,7 +115,7 @@ public class ItemTooltipsProcedure {
                 tooltip.add((Component)Component.literal((String)Component.translatable((String)"msg.create_more_features.item_tooltip_summary").getString()));
             }
         }
-        if (itemstack.is(ItemTags.create((ResourceLocation)ResourceLocation.parse((String)"forge:work_blocks")))) {
+        if (itemstack.is(ItemTags.create((ResourceLocation)ResourceLocation.parse((String)"create_mf:work_blocks")))) {
             if (Screen.hasShiftDown()) {
                 tooltip.add((Component)Component.literal((String)Component.translatable((String)"msg.create_more_features.item_tooltip_work_blocks").getString()));
             }
@@ -153,4 +153,3 @@ public class ItemTooltipsProcedure {
         }
     }
 }
-
