@@ -1,18 +1,21 @@
 modLoader="javafml"
 loaderVersion="[4,)"
 license="Academic Free License v3.0"
+issueTrackerURL="https://github.com/yankeevader/Create-More-Features-Patched-Unofficial/issues"
 
 [[mods]]
 modId="create_mf"
-version="0.9.69"
-displayName="Create: more features"
-displayURL="https://minecraft-inside.ru/user/daniil_white/"
+version="0.9.69-patched-unofficial"
+displayName="Create: More Features Patched Unofficial"
+displayURL="https://github.com/yankeevader/Create-More-Features-Patched-Unofficial"
 logoFile="logo.png"
-credits="Create: More Features is addon for Create mod"
-authors="Daniil_White, Tamlighter"
+credits="Original Create: More Features by Daniil_White and Tamlighter. Unofficial compatibility patch by Yankeevader."
+authors="Daniil_White, Tamlighter, Yankeevader patch"
+description='''
+Unofficial patched build of Create: More Features for NeoForge 1.21.1.
 
-# Start of user code block mod configuration
-# End of user code block mod configuration
+This build preserves the original mod behavior while adding compatibility and stability fixes for villager trade registration and Create 6 compatibility cleanup.
+'''
 
 [[dependencies.create_mf]]
     modId="neoforge"
@@ -36,24 +39,8 @@ authors="Daniil_White, Tamlighter"
     side="BOTH"
 
 [[dependencies.create_mf]]
-    modId="create"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.create_mf]]
     modId="createnew"
     type="optional"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-
-[[dependencies.create_mf]]
-    modId="create"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-
-# Start of user code block dependencies configuration
-# End of user code block dependencies configuration
