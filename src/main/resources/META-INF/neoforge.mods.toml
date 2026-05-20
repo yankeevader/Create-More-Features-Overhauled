@@ -37,10 +37,3 @@ This build preserves the original mod behavior while adding compatibility and st
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-
-[[dependencies.create_mf]]
-    modId="createnew"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
