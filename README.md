@@ -1,7 +1,7 @@
 # Create: More Features - Overhauled
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green)
-![NeoForge](https://img.shields.io/badge/NeoForge-21.1.222-orange)
+![NeoForge](https://img.shields.io/badge/NeoForge-21.1.2xx-orange)
 ![Version](https://img.shields.io/badge/Version-1.0.0--overhauled-blue)
 ![License](https://img.shields.io/badge/License-AFL--3.0-lightgrey)
 
