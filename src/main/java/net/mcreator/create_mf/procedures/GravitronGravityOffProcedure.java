@@ -17,7 +17,7 @@ import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 
-@EventBusSubscriber(value={Dist.CLIENT})
+@EventBusSubscriber(modid = CreateMfMod.MODID, value = Dist.CLIENT)
 public class GravitronGravityOffProcedure {
     @SubscribeEvent
     public static void onLeftClick(PlayerInteractEvent.LeftClickEmpty event) {
@@ -32,7 +32,7 @@ public class GravitronGravityOffProcedure {
     private static void execute(@Nullable Event event) {
     }
 
-    @EventBusSubscriber(bus=EventBusSubscriber.Bus.MOD)
+    @EventBusSubscriber(modid = CreateMfMod.MODID)
     public record GravitronGravityOffMessage() implements CustomPacketPayload
     {
         public static final CustomPacketPayload.Type<GravitronGravityOffMessage> TYPE = new CustomPacketPayload.Type(ResourceLocation.fromNamespaceAndPath((String)"create_mf", (String)"procedure_gravitron_gravity_off"));
@@ -62,4 +62,3 @@ public class GravitronGravityOffProcedure {
         }
     }
 }
-
