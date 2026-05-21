@@ -5,7 +5,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.Mirror;
@@ -19,73 +18,121 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
-import net.minecraft.world.level.block.state.properties.Property;
-import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class ShowcaseBlock
-extends Block
-implements SimpleWaterloggedBlock {
+public class ShowcaseBlock extends Block implements SimpleWaterloggedBlock {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
     public ShowcaseBlock() {
-        super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.BAMBOO).strength(7.0f, 10.0f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-        this.registerDefaultState((BlockState)((BlockState)((BlockState)this.stateDefinition.any()).setValue((Property)FACING, (Comparable)Direction.NORTH)).setValue((Property)WATERLOGGED, (Comparable)Boolean.valueOf(false)));
+        super(BlockBehaviour.Properties.of()
+                .ignitedByLava()
+                .instrument(NoteBlockInstrument.BASS)
+                .sound(SoundType.BAMBOO)
+                .strength(7.0f, 10.0f)
+                .noOcclusion()
+                .isRedstoneConductor((bs, br, bp) -> false));
+
+        this.registerDefaultState(this.stateDefinition.any()
+                .setValue(FACING, Direction.NORTH)
+                .setValue(WATERLOGGED, false));
     }
 
+    @Override
     public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
         return state.getFluidState().isEmpty();
     }
 
+    @Override
     public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
         return 0;
     }
 
+    @Override
     public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
         return Shapes.empty();
     }
 
+    @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-        return switch ((Direction)state.getValue((Property)FACING)) {
-            default -> Shapes.or((VoxelShape)ShowcaseBlock.box((double)0.0, (double)0.0, (double)0.0, (double)16.0, (double)11.0, (double)16.0), (VoxelShape[])new VoxelShape[]{ShowcaseBlock.box((double)0.0, (double)26.0, (double)0.0, (double)16.0, (double)27.0, (double)16.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)14.0, (double)16.0, (double)26.0, (double)16.0), ShowcaseBlock.box((double)2.0, (double)18.5, (double)0.0, (double)14.0, (double)18.75, (double)14.0), ShowcaseBlock.box((double)14.0, (double)11.0, (double)0.0, (double)16.0, (double)26.0, (double)14.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)0.0, (double)2.0, (double)26.0, (double)14.0)});
-            case Direction.NORTH -> Shapes.or((VoxelShape)ShowcaseBlock.box((double)0.0, (double)0.0, (double)0.0, (double)16.0, (double)11.0, (double)16.0), (VoxelShape[])new VoxelShape[]{ShowcaseBlock.box((double)0.0, (double)26.0, (double)0.0, (double)16.0, (double)27.0, (double)16.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)0.0, (double)16.0, (double)26.0, (double)2.0), ShowcaseBlock.box((double)2.0, (double)18.5, (double)2.0, (double)14.0, (double)18.75, (double)16.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)2.0, (double)2.0, (double)26.0, (double)16.0), ShowcaseBlock.box((double)14.0, (double)11.0, (double)2.0, (double)16.0, (double)26.0, (double)16.0)});
-            case Direction.EAST -> Shapes.or((VoxelShape)ShowcaseBlock.box((double)0.0, (double)0.0, (double)0.0, (double)16.0, (double)11.0, (double)16.0), (VoxelShape[])new VoxelShape[]{ShowcaseBlock.box((double)0.0, (double)26.0, (double)0.0, (double)16.0, (double)27.0, (double)16.0), ShowcaseBlock.box((double)14.0, (double)11.0, (double)0.0, (double)16.0, (double)26.0, (double)16.0), ShowcaseBlock.box((double)0.0, (double)18.5, (double)2.0, (double)14.0, (double)18.75, (double)14.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)0.0, (double)14.0, (double)26.0, (double)2.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)14.0, (double)14.0, (double)26.0, (double)16.0)});
-            case Direction.WEST -> Shapes.or((VoxelShape)ShowcaseBlock.box((double)0.0, (double)0.0, (double)0.0, (double)16.0, (double)11.0, (double)16.0), (VoxelShape[])new VoxelShape[]{ShowcaseBlock.box((double)0.0, (double)26.0, (double)0.0, (double)16.0, (double)27.0, (double)16.0), ShowcaseBlock.box((double)0.0, (double)11.0, (double)0.0, (double)2.0, (double)26.0, (double)16.0), ShowcaseBlock.box((double)2.0, (double)18.5, (double)2.0, (double)16.0, (double)18.75, (double)14.0), ShowcaseBlock.box((double)2.0, (double)11.0, (double)14.0, (double)16.0, (double)26.0, (double)16.0), ShowcaseBlock.box((double)2.0, (double)11.0, (double)0.0, (double)16.0, (double)26.0, (double)2.0)});
+        return switch (state.getValue(FACING)) {
+            default -> Shapes.or(
+                    ShowcaseBlock.box(0.0D, 0.0D, 0.0D, 16.0D, 11.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 26.0D, 0.0D, 16.0D, 27.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 14.0D, 16.0D, 26.0D, 16.0D),
+                    ShowcaseBlock.box(2.0D, 18.5D, 0.0D, 14.0D, 18.75D, 14.0D),
+                    ShowcaseBlock.box(14.0D, 11.0D, 0.0D, 16.0D, 26.0D, 14.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 0.0D, 2.0D, 26.0D, 14.0D)
+            );
+            case NORTH -> Shapes.or(
+                    ShowcaseBlock.box(0.0D, 0.0D, 0.0D, 16.0D, 11.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 26.0D, 0.0D, 16.0D, 27.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 0.0D, 16.0D, 26.0D, 2.0D),
+                    ShowcaseBlock.box(2.0D, 18.5D, 2.0D, 14.0D, 18.75D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 2.0D, 2.0D, 26.0D, 16.0D),
+                    ShowcaseBlock.box(14.0D, 11.0D, 2.0D, 16.0D, 26.0D, 16.0D)
+            );
+            case EAST -> Shapes.or(
+                    ShowcaseBlock.box(0.0D, 0.0D, 0.0D, 16.0D, 11.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 26.0D, 0.0D, 16.0D, 27.0D, 16.0D),
+                    ShowcaseBlock.box(14.0D, 11.0D, 0.0D, 16.0D, 26.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 18.5D, 2.0D, 14.0D, 18.75D, 14.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 0.0D, 14.0D, 26.0D, 2.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 14.0D, 14.0D, 26.0D, 16.0D)
+            );
+            case WEST -> Shapes.or(
+                    ShowcaseBlock.box(0.0D, 0.0D, 0.0D, 16.0D, 11.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 26.0D, 0.0D, 16.0D, 27.0D, 16.0D),
+                    ShowcaseBlock.box(0.0D, 11.0D, 0.0D, 2.0D, 26.0D, 16.0D),
+                    ShowcaseBlock.box(2.0D, 18.5D, 2.0D, 16.0D, 18.75D, 14.0D),
+                    ShowcaseBlock.box(2.0D, 11.0D, 14.0D, 16.0D, 26.0D, 16.0D),
+                    ShowcaseBlock.box(2.0D, 11.0D, 0.0D, 16.0D, 26.0D, 2.0D)
+            );
         };
     }
 
+    @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         super.createBlockStateDefinition(builder);
-        builder.add(new Property[]{FACING, WATERLOGGED});
+        builder.add(FACING, WATERLOGGED);
     }
 
+    @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        boolean flag = context.getLevel().getFluidState(context.getClickedPos()).getType() == Fluids.WATER;
-        return (BlockState)((BlockState)super.getStateForPlacement(context).setValue((Property)FACING, (Comparable)context.getHorizontalDirection().getOpposite())).setValue((Property)WATERLOGGED, (Comparable)Boolean.valueOf(flag));
+        boolean waterlogged = context.getLevel().getFluidState(context.getClickedPos()).getType() == Fluids.WATER;
+
+        return super.getStateForPlacement(context)
+                .setValue(FACING, context.getHorizontalDirection().getOpposite())
+                .setValue(WATERLOGGED, waterlogged);
     }
 
-    public BlockState rotate(BlockState state, Rotation rot) {
-        return (BlockState)state.setValue((Property)FACING, (Comparable)rot.rotate((Direction)state.getValue((Property)FACING)));
+    @Override
+    public BlockState rotate(BlockState state, Rotation rotation) {
+        return state.setValue(FACING, rotation.rotate(state.getValue(FACING)));
     }
 
-    public BlockState mirror(BlockState state, Mirror mirrorIn) {
-        return state.rotate(mirrorIn.getRotation((Direction)state.getValue((Property)FACING)));
+    @Override
+    public BlockState mirror(BlockState state, Mirror mirror) {
+        return rotate(state, mirror.getRotation(state.getValue(FACING)));
     }
 
+    @Override
     public FluidState getFluidState(BlockState state) {
-        return (Boolean)state.getValue((Property)WATERLOGGED) != false ? Fluids.WATER.getSource(false) : super.getFluidState(state);
+        return state.getValue(WATERLOGGED)
+                ? Fluids.WATER.getSource(false)
+                : super.getFluidState(state);
     }
 
+    @Override
     public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
-        if (((Boolean)state.getValue((Property)WATERLOGGED)).booleanValue()) {
-            world.scheduleTick(currentPos, (Fluid)Fluids.WATER, Fluids.WATER.getTickDelay((LevelReader)world));
+        if (state.getValue(WATERLOGGED)) {
+            world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
         }
+
         return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
     }
 }
-
