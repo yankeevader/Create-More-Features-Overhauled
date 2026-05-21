@@ -1,5 +1,6 @@
 package net.mcreator.create_mf.init;
 
+import net.mcreator.create_mf.CreateMfMod;
 import net.mcreator.create_mf.block.AndesitecasingslabBlock;
 import net.mcreator.create_mf.block.AndesitecasingstairsBlock;
 import net.mcreator.create_mf.block.BayerstableBlock;
@@ -123,7 +124,7 @@ public class CreateMfModBlocks {
     public static final DeferredBlock<Block> CULTIVATED_TREE_SAPLING = REGISTRY.register("cultivated_tree_sapling", CultivatedTreeSaplingBlock::new);
     public static final DeferredBlock<Block> HONEYCOMB_COLLECTOR = REGISTRY.register("honeycomb_collector", HoneycombCollectorBlock::new);
 
-    @EventBusSubscriber(bus=EventBusSubscriber.Bus.MOD, value={Dist.CLIENT})
+    @EventBusSubscriber(modid = CreateMfMod.MODID, value = Dist.CLIENT)
     public static class BlocksClientSideHandler {
         @SubscribeEvent
         public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
@@ -138,4 +139,3 @@ public class CreateMfModBlocks {
         }
     }
 }
-
