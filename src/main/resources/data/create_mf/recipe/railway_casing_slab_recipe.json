@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:railway_casing"
+  },
+  "result": {
+    "id": "create_mf:railway_casing_slab",
+    "count": 2
+  }
+}
