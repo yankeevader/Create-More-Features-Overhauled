@@ -1,5 +1,6 @@
 package net.mcreator.create_mf.fluid.types;
 
+import net.mcreator.create_mf.CreateMfMod;
 import net.mcreator.create_mf.init.CreateMfModFluidTypes;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -13,7 +14,7 @@ import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsE
 import net.neoforged.neoforge.common.SoundActions;
 import net.neoforged.neoforge.fluids.FluidType;
 
-@EventBusSubscriber(bus=EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = CreateMfMod.MODID)
 public class NetheralavsFluidType
 extends FluidType {
     public NetheralavsFluidType() {
@@ -36,4 +37,3 @@ extends FluidType {
         }, new FluidType[]{(FluidType)CreateMfModFluidTypes.NETHERALAVS_TYPE.get()});
     }
 }
-
