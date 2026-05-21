@@ -1,20 +1,20 @@
 modLoader="javafml"
 loaderVersion="[4,)"
 license="Academic Free License v3.0"
-issueTrackerURL="https://github.com/yankeevader/Create-More-Features-Patched-Unofficial/issues"
+issueTrackerURL="https://github.com/yankeevader/Create-More-Features-Overhauled/issues"
 
 [[mods]]
 modId="create_mf"
-version="0.9.69-patched-unofficial"
-displayName="Create: More Features Patched Unofficial"
-displayURL="https://github.com/yankeevader/Create-More-Features-Patched-Unofficial"
+version="1.0.0-overhauled"
+displayName="Create: More Features - Overhauled"
+displayURL="https://github.com/yankeevader/Create-More-Features-Overhauled"
 logoFile="logo.png"
-credits="Original Create: More Features by Daniil_White and Tamlighter. Unofficial compatibility patch by Yankeevader."
-authors="Daniil_White, Tamlighter, Yankeevader patch"
+credits="Original Create: More Features by Daniil_White and Tamlighter. Overhauled maintained fork by Yankeevader."
+authors="Daniil_White, Tamlighter, Yankeevader"
 description='''
-Unofficial patched build of Create: More Features for NeoForge 1.21.1.
+Create: More Features - Overhauled is a maintained fork of Create: More Features for NeoForge 1.21.1.
 
-This build preserves the original mod behavior while adding compatibility and stability fixes for villager trade registration and Create 6 compatibility cleanup.
+This fork preserves the original mod's content and design direction while modernizing compatibility for Create 6, improving stability, restoring broken behavior, cleaning legacy generated code, and maintaining the project for modern modpacks and servers.
 '''
 
 [[dependencies.create_mf]]
