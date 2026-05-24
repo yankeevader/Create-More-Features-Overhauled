@@ -19,24 +19,24 @@ public class LinemanA {
             return;
         }
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(LinemanA.createItem("powdered_obsidian", 8), new ItemStack((ItemLike) Items.EMERALD), 24, 2, 0.02f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(LinemanA.createItem("sturdy_sheet", 1), new ItemStack((ItemLike) Items.EMERALD), 18, 2, 0.02f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 5), LinemanA.createItem("railway_casing", 1), 10, 2, 0.02f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 3), LinemanA.createItem("display_board", 2), 20, 2, 0.02f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(LinemanA.createItem("electron_tube", 2), new ItemStack((ItemLike) Items.EMERALD), 16, 3, 0.02f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 3), LinemanA.createItem("redstone_link", 1), 18, 3, 0.02f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 2), LinemanA.createItem("pulse_repeater", 1), 16, 3, 0.02f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(LinemanA.createItem("schedule", 3), new ItemStack((ItemLike) Items.EMERALD), 20, 4, 0.03f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 11), LinemanA.createItem("track_station", 1), 11, 5, 0.02f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 7), LinemanA.createItem("track_observer", 1), 15, 5, 0.02f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 4), LinemanA.createItem("powered_latch", 1), 15, 4, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 5), LinemanA.createItem("powered_toggle_latch", 1), 15, 4, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 4), LinemanA.createItem("analog_lever", 1), 18, 4, 0.03f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 9), LinemanA.createItem("controls", 1), 15, 8, 0.03f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 7), LinemanA.createItem("track_signal", 2), 20, 8, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 6), LinemanA.createItem("nixie_tube", 2), 12, 5, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 7), LinemanA.createItem("display_link", 1), 12, 5, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 8), LinemanA.createItem("content_observer", 1), 10, 5, 0.03f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 6), LinemanA.createItem("train_door", 1), 15, 11, 0.04f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 5), LinemanA.createItem("train_trapdoor", 1), 15, 11, 0.04f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 6), LinemanA.createItem("stockpile_switch", 1), 12, 7, 0.04f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 5), LinemanA.createItem("threshold_switch", 1), 12, 7, 0.04f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 8), LinemanA.createItem("sequenced_gearshift", 1), 10, 7, 0.04f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 23), LinemanA.createItem("mechanical_roller", 1), 6, 5, 0.05f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 2), LinemanA.createItem("framed_glass_trapdoor", 1), 20, 5, 0.05f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 3), LinemanA.createItem("framed_glass_door", 1), 20, 5, 0.05f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 12), LinemanA.createItem("rotation_speed_controller", 1), 8, 9, 0.05f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 14), LinemanA.createItem("schedule", 1), 10, 9, 0.05f));
     }
 
     private static ItemStack createItem(String string, int n) {
@@ -47,7 +47,7 @@ public class LinemanA {
         if (n > 99) {
             n = 99;
         }
-        if ((itemLike = (ItemLike) BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath((String) "create", (String) string))) == Items.AIR) {
+        if ((itemLike = (ItemLike) BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("create", string))) == Items.AIR) {
             return ItemStack.EMPTY;
         }
         return new ItemStack(itemLike, n);
