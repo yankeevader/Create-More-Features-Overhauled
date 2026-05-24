@@ -67,6 +67,6 @@
     }
   ],
   "transitional_item": {
-    "item": "create_mf:pieces_of_graphite"
+    "id": "create_mf:pieces_of_graphite"
   }
 }
