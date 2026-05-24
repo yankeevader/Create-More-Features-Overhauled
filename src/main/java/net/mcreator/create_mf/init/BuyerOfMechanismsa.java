@@ -24,20 +24,20 @@ public class BuyerOfMechanismsa {
         CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(BuyerOfMechanismsa.createItem("vertical_gearbox", 2), new ItemStack((ItemLike) Items.EMERALD), 12, 3, 0.05f));
         CmfTradeGuard.safeAdd((List) event.getTrades().get(1), new BasicItemListing(BuyerOfMechanismsa.createItem("belt_connector", 6), new ItemStack((ItemLike) Items.EMERALD), 20, 4, 0.05f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("encased_fan", 2), new ItemStack((ItemLike) Items.EMERALD), 16, 6, 0.06f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_drill", 2), new ItemStack((ItemLike) Items.EMERALD), 16, 6, 0.06f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_saw", 2), new ItemStack((ItemLike) Items.EMERALD), 16, 6, 0.06f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_press", 1), new ItemStack((ItemLike) Items.EMERALD), 20, 6, 0.06f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("encased_fan", 2), new ItemStack((ItemLike) Items.EMERALD, 2), 16, 6, 0.06f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_drill", 2), new ItemStack((ItemLike) Items.EMERALD, 2), 16, 6, 0.06f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_saw", 2), new ItemStack((ItemLike) Items.EMERALD, 2), 16, 6, 0.06f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_press", 1), new ItemStack((ItemLike) Items.EMERALD, 2), 20, 6, 0.06f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(BuyerOfMechanismsa.createItem("blaze_burner", 1), new ItemStack((ItemLike) Items.EMERALD, 3), 10, 7, 0.07f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(BuyerOfMechanismsa.createItem("crushing_wheel", 1), new ItemStack((ItemLike) Items.EMERALD, 2), 10, 7, 0.07f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(BuyerOfMechanismsa.createItem("blaze_burner", 1), new ItemStack((ItemLike) Items.EMERALD, 5), 10, 7, 0.07f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(BuyerOfMechanismsa.createItem("crushing_wheel", 1), new ItemStack((ItemLike) Items.EMERALD, 6), 10, 7, 0.07f));
         CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(BuyerOfMechanismsa.createItem("shaft", 48), new ItemStack((ItemLike) Items.EMERALD), 24, 5, 0.07f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(BuyerOfMechanismsa.createItem("precision_mechanism", 1), new ItemStack((ItemLike) Items.EMERALD, 3), 8, 8, 0.08f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(BuyerOfMechanismsa.createItem("precision_mechanism", 1), new ItemStack((ItemLike) Items.EMERALD, 5), 8, 8, 0.08f));
         CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(BuyerOfMechanismsa.createItem("sturdy_sheet", 1), new ItemStack((ItemLike) Items.EMERALD, 2), 10, 8, 0.08f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_arm", 1), new ItemStack((ItemLike) Items.EMERALD, 5), 6, 10, 0.08f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_crafter", 4), new ItemStack((ItemLike) Items.EMERALD), 10, 10, 0.08f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_arm", 1), new ItemStack((ItemLike) Items.EMERALD, 8), 6, 10, 0.08f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(BuyerOfMechanismsa.createItem("mechanical_crafter", 4), new ItemStack((ItemLike) Items.EMERALD, 5), 10, 10, 0.08f));
     }
 
     private static ItemStack createItem(String string, int n) {
