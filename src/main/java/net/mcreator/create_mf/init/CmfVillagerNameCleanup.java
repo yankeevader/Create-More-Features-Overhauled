@@ -45,7 +45,7 @@ public final class CmfVillagerNameCleanup {
     }
 
     private static boolean isCreateMfProfession(Villager villager) {
-        VillagerProfession profession = villager.getVillagerData().getProfession().value();
+        VillagerProfession profession = villager.getVillagerData().getProfession();
         ResourceLocation professionId = BuiltInRegistries.VILLAGER_PROFESSION.getKey(profession);
 
         return professionId != null && CreateMfMod.MODID.equals(professionId.getNamespace());
