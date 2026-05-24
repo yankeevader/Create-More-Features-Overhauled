@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "create:railway_casing"
+    "item": "minecraft:oak_log"
   },
   "loops": 2,
   "results": [
@@ -10,11 +10,11 @@
       "id": "create_mf:railway_decorative_casing"
     },
     {
-      "chance": 8.0,
-      "id": "create:sturdy_sheet"
+      "chance": 18.0,
+      "id": "minecraft:oak_log"
     },
     {
-      "id": "create:railway_casing"
+      "id": "minecraft:stick"
     }
   ],
   "sequence": [
@@ -25,7 +25,7 @@
           "item": "create_mf:incomplete_railway_decorative_casing"
         },
         {
-          "item": "create:sturdy_sheet"
+          "item": "minecraft:iron_nugget"
         }
       ],
       "results": [
@@ -35,15 +35,13 @@
       ]
     },
     {
-      "type": "create:deploying",
+      "type": "create:cutting",
       "ingredients": [
         {
           "item": "create_mf:incomplete_railway_decorative_casing"
-        },
-        {
-          "item": "create:brass_ingot"
         }
       ],
+      "processing_time": 250,
       "results": [
         {
           "id": "create_mf:incomplete_railway_decorative_casing"
