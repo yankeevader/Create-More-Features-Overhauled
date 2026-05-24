@@ -120,6 +120,6 @@
     }
   ],
   "transitional_item": {
-    "item": "create_mf:incomplete_gravitron"
+    "id": "create_mf:incomplete_gravitron"
   }
 }
