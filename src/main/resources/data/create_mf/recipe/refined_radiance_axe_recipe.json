@@ -1,20 +1,20 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "minecraft:stick"
+    "item": "minecraft:netherite_axe"
   },
-  "loops": 1,
+  "loops": 3,
   "results": [
     {
-      "chance": 100.0,
+      "chance": 120.0,
       "id": "create_mf:refined_radiance_axe"
     },
     {
-      "chance": 10.0,
-      "id": "minecraft:netherite_axe"
+      "chance": 8.0,
+      "id": "minecraft:golden_axe"
     },
     {
-      "id": "minecraft:iron_axe"
+      "id": "minecraft:diamond_axe"
     }
   ],
   "sequence": [
@@ -25,38 +25,6 @@
           "item": "create_mf:incomplete_refined_radiance_axe"
         },
         {
-          "item": "minecraft:gold_ingot"
-        }
-      ],
-      "results": [
-        {
-          "id": "create_mf:incomplete_refined_radiance_axe"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "create_mf:incomplete_refined_radiance_axe"
-        },
-        {
-          "item": "minecraft:stick"
-        }
-      ],
-      "results": [
-        {
-          "id": "create_mf:incomplete_refined_radiance_axe"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "create_mf:incomplete_refined_radiance_axe"
-        },
-        {
           "item": "create_mf:refined_radiance"
         }
       ],
@@ -73,43 +41,9 @@
           "item": "create_mf:incomplete_refined_radiance_axe"
         },
         {
-          "amount": 200,
-          "fluid": "minecraft:lava",
+          "amount": 250,
+          "fluid": "create_mf:netheralavs",
           "type": "neoforge:single"
-        }
-      ],
-      "results": [
-        {
-          "id": "create_mf:incomplete_refined_radiance_axe"
-        }
-      ]
-    },
-    {
-      "type": "create:filling",
-      "ingredients": [
-        {
-          "item": "create_mf:incomplete_refined_radiance_axe"
-        },
-        {
-          "amount": 750,
-          "fluid": "minecraft:water",
-          "type": "neoforge:single"
-        }
-      ],
-      "results": [
-        {
-          "id": "create_mf:incomplete_refined_radiance_axe"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "create_mf:incomplete_refined_radiance_axe"
-        },
-        {
-          "item": "create_mf:refined_radiance"
         }
       ],
       "results": [
@@ -133,6 +67,6 @@
     }
   ],
   "transitional_item": {
-    "item": "create_mf:incomplete_refined_radiance_axe"
+    "id": "create_mf:incomplete_refined_radiance_axe"
   }
 }
