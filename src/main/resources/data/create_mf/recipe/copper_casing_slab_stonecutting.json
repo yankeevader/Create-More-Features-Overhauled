@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "create:copper_casing"
+  },
+  "result": {
+    "id": "create_mf:copper_casing_slab",
+    "count": 2
+  }
+}
