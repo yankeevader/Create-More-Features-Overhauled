@@ -208,5 +208,17 @@
   "entity.minecraft.villager.create_mf.contraptionstrader": "Contraptions Trader",
   "entity.minecraft.villager.create_mf.sundriesseller": "Sundries Seller",
   "entity.minecraft.villager.create_more_features.engineer": "Engineer",
-  "entity.minecraft.villager.create_more_features.gizmomaster": "Gizmo Master"
+  "entity.minecraft.villager.create_more_features.gizmomaster": "Gizmo Master",
+
+  "entity.minecraft.villager.contraptionstrader": "Contraptions Trader",
+  "entity.minecraft.villager.confectioner": "Confectioner",
+  "entity.minecraft.villager.engineer": "Engineer",
+  "entity.minecraft.villager.pipefitter": "Pipefitter",
+  "entity.minecraft.villager.postman": "Postman",
+  "entity.minecraft.villager.gizmomaster": "Gizmo Master",
+  "entity.minecraft.villager.lineman": "Lineman",
+  "entity.minecraft.villager.sundriesseller": "Sundries Seller",
+  "entity.minecraft.villager.exchangerofmechanisms": "Mechanism Exchanger",
+  "entity.minecraft.villager.sellerofmechanisms": "Mechanism Seller",
+  "entity.minecraft.villager.buyer_of_mechanisms": "Mechanism Buyer"
 }
