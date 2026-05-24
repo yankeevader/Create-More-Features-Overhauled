@@ -28,14 +28,14 @@ public class SundriesSellerA {
         CmfTradeGuard.safeAdd((List) event.getTrades().get(2), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 1), SundriesSellerA.createItem("sand_paper", 1), 25, 3, 0.02f));
 
         CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 2), SundriesSellerA.createItem("red_sand_paper", 1), 25, 3, 0.02f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 6), SundriesSellerA.createItem("rose_quartz_lamp", 1), 16, 5, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 7), SundriesSellerA.createItem("rose_quartz_lamp", 1), 16, 5, 0.03f));
         CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 32), SundriesSellerA.createItem("schematicannon", 1), 3, 5, 0.03f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 4), SundriesSellerA.createItem("attribute_filter", 1), 18, 5, 0.03f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(3), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 5), SundriesSellerA.createItem("attribute_filter", 1), 18, 5, 0.03f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 14), SundriesSellerA.createItem("clockwork_bearing", 1), 5, 7, 0.04f));
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 18), SundriesSellerA.createItem("flywheel", 1), 5, 7, 0.04f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 16), SundriesSellerA.createItem("clockwork_bearing", 1), 5, 7, 0.04f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(4), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 20), SundriesSellerA.createItem("flywheel", 1), 5, 7, 0.04f));
 
-        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 38), SundriesSellerA.createItem("extendo_grip", 1), 1, 5, 0.04f));
+        CmfTradeGuard.safeAdd((List) event.getTrades().get(5), new BasicItemListing(new ItemStack((ItemLike) Items.EMERALD, 36), SundriesSellerA.createItem("extendo_grip", 1), 1, 5, 0.04f));
     }
 
     private static ItemStack createItem(String string, int n) {
@@ -46,7 +46,7 @@ public class SundriesSellerA {
         if (n > 99) {
             n = 99;
         }
-        if ((itemLike = (ItemLike) BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath((String) "create", (String) string))) == Items.AIR) {
+        if ((itemLike = (ItemLike) BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath("create", string))) == Items.AIR) {
             return ItemStack.EMPTY;
         }
         return new ItemStack(itemLike, n);
