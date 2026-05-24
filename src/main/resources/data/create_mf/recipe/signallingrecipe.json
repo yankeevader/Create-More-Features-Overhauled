@@ -67,19 +67,19 @@
       ]
     },
     {
-  "type": "create:pressing",
-  "ingredients": [
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_mf:incomplete_signalling"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_mf:incomplete_signalling"
+        }
+      ]
+    },
     {
-      "item": "create_mf:incomplete_signalling"
-    }
-  ],
-  "results": [
-    {
-      "id": "create_mf:incomplete_signalling"
-    }
-  ]
-},
-	{
       "type": "create:deploying",
       "ingredients": [
         {
@@ -97,6 +97,6 @@
     }
   ],
   "transitional_item": {
-    "item": "create_mf:incomplete_signalling"
+    "id": "create_mf:incomplete_signalling"
   }
 }
