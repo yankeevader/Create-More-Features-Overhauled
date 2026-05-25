@@ -8,7 +8,8 @@ public final class CmfTradeGuard {
     private CmfTradeGuard() {
     }
 
-    public static <T> boolean safeAdd(List<T> list, T object) {
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    public static boolean safeAdd(List list, Object object) {
         if (list == null || object == null) {
             return false;
         }
