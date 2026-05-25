@@ -2,7 +2,7 @@
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green)
 ![NeoForge](https://img.shields.io/badge/NeoForge-21.1.2xx-orange)
-![Version](https://img.shields.io/badge/Version-1.0.0--overhauled-blue)
+![Version](https://img.shields.io/badge/Version-1.0.1--overhauled-blue)
 ![License](https://img.shields.io/badge/License-AFL--3.0-lightgrey)
 
 **Create: More Features - Overhauled** is a maintained fork of the original **Create: More Features** mod for NeoForge 1.21.1.
