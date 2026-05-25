@@ -5,9 +5,9 @@ import net.mcreator.create_mf.init.CreateMfModFluids;
 
 import net.neoforged.neoforge.fluids.BaseFlowingFluid;
 
+import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 
 public abstract class NetheralavsFluid extends BaseFlowingFluid {
     public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(
@@ -34,14 +34,14 @@ public abstract class NetheralavsFluid extends BaseFlowingFluid {
 
     public static class Flowing extends NetheralavsFluid {
         @Override
-        protected void createFluidStateDefinition(net.minecraft.world.level.block.state.StateDefinition.Builder<Fluid, FluidState> builder) {
+        protected void createFluidStateDefinition(StateDefinition.Builder<Fluid, FluidState> builder) {
             super.createFluidStateDefinition(builder);
             builder.add(LEVEL);
         }
 
         @Override
         public int getAmount(FluidState state) {
-            return state.getValue(BlockStateProperties.LEVEL_FLOWING);
+            return state.getValue(LEVEL);
         }
 
         @Override
