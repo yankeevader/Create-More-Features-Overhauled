@@ -39,15 +39,11 @@ public class WorkshopsBlock extends Block {
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-        Direction direction = state.getValue(FACING);
-
-        return switch (direction) {
-            default -> Shapes.join(
-                    Shapes.box(0, 0, 0, 1, 0.875, 1),
-                    Shapes.box(0.0625, 0.875, 0.0625, 0.9375, 1, 0.9375),
-                    BooleanOp.OR
-            );
-        };
+        return Shapes.join(
+                Shapes.box(0, 0, 0, 1, 0.875, 1),
+                Shapes.box(0.0625, 0.875, 0.0625, 0.9375, 1, 0.9375),
+                BooleanOp.OR
+        );
     }
 
     @Override
